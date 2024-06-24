@@ -13,9 +13,9 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-Heart_disease_model = pickle.load(open("C:/Users/samay/OneDrive/Desktop/Project_of_development/ML & DL web app project/trained_model.sav", "rb"))
+Heart_disease_model = pickle.load(open("Heart_disease_model.sav", "rb"))
 
-Diabetes_model = pickle.load(open("C:/Users/samay/OneDrive/Desktop/Project_of_development/ML & DL web app project/trained_model2.sav", "rb"))
+Diabetes_model = pickle.load(open("Diabetes_model.sav", "rb"))
 
 
 def Heart_disease_prediction(input_data):
